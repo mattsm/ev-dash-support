@@ -1,0 +1,16 @@
+name: Feature request
+description: A value, screen or car you'd like EV Dash to support.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: And what you'd use it for.
+    validations:
+      required: true
+  - type: input
+    id: car
+    attributes:
+      label: Car (if it matters)
+      placeholder: 2025 Kia EV9 GT-Line

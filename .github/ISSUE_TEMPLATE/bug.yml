@@ -1,0 +1,52 @@
+name: Bug report
+description: Something doesn't work or shows a wrong value.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public: don't include your VIN, location or the diagnostics file."
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: input
+    id: car
+    attributes:
+      label: Car
+      placeholder: 2026 Hyundai Ioniq 5 Limited AWD
+    validations:
+      required: true
+  - type: input
+    id: adapter
+    attributes:
+      label: OBD adapter
+      placeholder: OBDLink CX (Bluetooth LE)
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where?
+      options:
+        - Phone app
+        - Android Auto (car screen)
+        - Android Automotive (built into the car)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: EV Dash version
+      description: Status tab, or Android Settings > Apps > EV Dash.
+  - type: input
+    id: phone
+    attributes:
+      label: Phone and Android version
+      placeholder: Galaxy S24 Ultra, Android 17
+  - type: checkboxes
+    id: diag
+    attributes:
+      label: Diagnostics
+      options:
+        - label: I have a "Share diagnostics" file and can send it privately if asked.
