@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Privacy policy
-    url: https://mattsm.github.io/m4embedded/ev-dash/privacy.html
+    url: https://mattsm.github.io/ev-dash/privacy.html
     about: What EV Dash does with data (short version - nothing leaves your phone).

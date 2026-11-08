@@ -2,8 +2,8 @@
 
 Bug reports, questions and feature requests for **EV Dash**, the Android and Android Auto app by M4 Embedded, LLC that shows live battery, charging and drive data from Hyundai, Kia and Genesis EVs.
 
-- About the app: https://mattsm.github.io/m4embedded/ev-dash/
-- Privacy policy: https://mattsm.github.io/m4embedded/ev-dash/privacy.html
+- About the app: https://mattsm.github.io/ev-dash/
+- Privacy policy: https://mattsm.github.io/ev-dash/privacy.html
 
 ## Get help
 
